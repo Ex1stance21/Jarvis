@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ff981d7-3eaf-4935-96f4-c473fbcc180b" name="Changes" comment="Добавив голос джарвісу">
-      <change afterPath="$PROJECT_DIR$/Audio/Hi_sir.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Audio/Yes_sir.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Audio/Yes_sir2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Audio/yes_sir3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/am/final.mdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/conf/mfcc.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/conf/model.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/graph/Gr.fst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/graph/HCLr.fst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/graph/disambig_tid.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/graph/phones/word_boundary.int" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/graph/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/ivector/final.dubm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/ivector/final.ie" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/ivector/final.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/ivector/global_cmvn.stats" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/ivector/online_cmvn.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/ivector/splice.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/vosk/ivector/splice_opts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_main.py" afterDir="false" />
+    <list default="true" id="1ff981d7-3eaf-4935-96f4-c473fbcc180b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -80,7 +59,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -163,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762425306229</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавив голос джарвісу">
+      <option name="closed" value="true" />
+      <created>1762976817670</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762976817671</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавив голос джарвісу">
+      <option name="closed" value="true" />
+      <created>1762977012066</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762977012066</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +189,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
+    <MESSAGE value="додав інтерфейс" />
     <MESSAGE value="Добавив голос джарвісу" />
     <option name="LAST_COMMIT_MESSAGE" value="Добавив голос джарвісу" />
   </component>
