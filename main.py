@@ -59,7 +59,6 @@ def start_jarvis():
                     phrase_time_limit=phrase_limit_sec
                 )
             except sr.WaitTimeoutError:
-                print("Ніхто не говорить, час вичерпано.")
                 return None
 
         if not running_flag:
@@ -69,10 +68,8 @@ def start_jarvis():
             text = recognizer.recognize_google(audio, language='uk-UA')
             return text
         except sr.UnknownValueError:
-            print("Не вдалося розпізнати мову.")
             return None
         except sr.RequestError as e:
-            print(f"Помилка запиту до сервісу розпізнавання: {e}")
             return None
 
     def execute_command(command_text):
@@ -122,12 +119,10 @@ def start_jarvis():
         now = time.time()
 
         if active and now >= active_session_end:
-            print("Час сесії 30 секунд минув, повертаюсь до wake-word.")
             active = False
 
         if active and now < active_until:
             command_text = listen_command_sr(timeout_sec=15, phrase_limit_sec=15)
-            print("Команда:", command_text)
             execute_command(command_text)
             if not running_flag:
                 raise sd.CallbackStop()
@@ -150,7 +145,6 @@ def start_jarvis():
             active_session_end = now + 30    # вся сесія максимум 30 сек
 
             command_text = listen_command_sr(timeout_sec=15, phrase_limit_sec=15)
-            print("Перша команда:", command_text)
             execute_command(command_text)
             if not running_flag:
                 raise sd.CallbackStop()
@@ -164,7 +158,7 @@ def start_jarvis():
                 latency='low',
                 callback=callback
         ):
-            input("Натисніть Enter для завершення...\n")
+            input()
 
     mic_on()
     handler.delete()
